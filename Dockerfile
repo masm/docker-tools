@@ -7,6 +7,7 @@ RUN pacman -Sq --needed --noconfirm --noprogressbar \
            lsyncd lua51 \
            nmap \
            openssh \
-           rsync && \
+           rsync \
+           socat && \
     yes | pacman -Sqcc && \
     rm -rf /usr/share/man/*
