@@ -3,6 +3,7 @@ MAINTAINER Marco Monteiro <marco@neniu.org>
 
 RUN pacman -Sq --needed --noconfirm --noprogressbar \
            aws-cli \
+           bind-tools \
            inotify-tools \
            lsyncd lua51 \
            nmap \
