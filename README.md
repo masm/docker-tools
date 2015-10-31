@@ -3,10 +3,15 @@
 > A docker image with various tools, built from `masm/archlinux`
 
 It currently includes:
+* aws-cli
+* bdsync
+* dig
+* inotify-*
 * lsyncd
 * nmap
 * openssh
 * rsync
+* socat
 
 ## Install
 
