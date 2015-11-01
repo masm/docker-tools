@@ -10,6 +10,7 @@ RUN pacman -Sq --needed --noconfirm --noprogressbar \
            nmap \
            openssh \
            rsync \
-           socat && \
+           socat \
+           sudo && \
     yes | pacman -Sqcc && \
     rm -rf /usr/share/man/*
