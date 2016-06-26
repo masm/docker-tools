@@ -16,3 +16,4 @@ RUN pacman -Sq --needed --noconfirm --noprogressbar \
            wget && \
     yes | pacman -Sqcc && \
     rm -rf /usr/share/man/*
+RUN pacman -Sq --needed --noconfirm --noprogressbar etcdtool
