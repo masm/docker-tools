@@ -5,12 +5,14 @@ RUN pacman -Sq --needed --noconfirm --noprogressbar \
            aws-cli \
            bind-tools \
            bdsync \
+           groff \
            inotify-tools \
            lsyncd lua51 \
            nmap \
            openssh \
            rsync \
            socat \
-           sudo && \
+           sudo \
+           wget && \
     yes | pacman -Sqcc && \
     rm -rf /usr/share/man/*
